@@ -1,0 +1,116 @@
+//
+// // Fonts
+// @import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
+//
+// // Variables
+// @import "variables";
+//
+// // Bootstrap
+// @import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+$baseRed:rgba(255, 0, 0, 0.5);
+$satRed:rgba(255, 0, 0, 0.65);
+$baseGreen:rgba(0, 255, 0, 0.6);
+$satGreen:rgba(0, 255, 0, 0.9);
+$baseGrey:rgba(0, 0, 0, 0.1);
+$satGrey:rgba(0, 0, 0, 0.7);
+
+
+.brick{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.MAJ_form{
+  border: silver;
+  border-radius: 12px;
+  background-color: $baseGrey;
+  border-right: 1px solid $satGrey;
+  border-bottom: 1px solid $satGrey;
+  box-shadow: 2px 2px 3px black;
+  min-width: 30em;
+  padding:1em;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.badass{
+  color:white;
+  text-shadow: 2px 2px 3px black;
+}
+.law{
+  margin: 0.3em 0;
+}
+.container{
+  display:flex;
+}
+.toDo{
+
+}
+.done{
+
+}
+.moreSpace{
+  margin-bottom:0.8em;
+}
+a{
+  text-decoration: none;
+  color:black;
+}
+a:hover{
+  color:white;
+}
+.logos{
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+}
+.bloc_task{
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content:space-around;
+  min-width:25em;
+  height:3em;
+  border-radius:15px;
+  padding:0 0.5em;
+  margin:0.3em;
+  background-color: $baseRed;
+  border-right: 1px solid $satRed;
+  border-bottom: 1px solid $satRed;
+  box-shadow: 2px 2px 3px black;
+  list-style-type: none;
+
+}
+.green{
+  background-color: $baseGreen;
+  border-right: 1px solid $satGreen;
+  border-bottom: 1px solid $satGreen;
+  box-shadow: 2px 2px 3px black;
+}
+button{
+  border-radius: 15px;
+  padding:0.5em 2em;
+}
+.fa{
+  margin-left: 0.3em;
+}
+.false{
+  margin-left:1em;
+}
+.true{
+  margin-right: 1em;
+}
+.create{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.buttonLink{
+  background-color: $baseRed;
+  border: solid 1px $satRed;
+  border-radius: 6px;
+  padding: 0.3em 0.3em
+}
