@@ -13,6 +13,7 @@ $baseGreen:rgba(0, 255, 0, 0.6);
 $satGreen:rgba(0, 255, 0, 0.9);
 $baseGrey:rgba(0, 0, 0, 0.1);
 $satGrey:rgba(0, 0, 0, 0.7);
+$beige:#fbf4a8;
 
 
 .brick{
@@ -44,12 +45,6 @@ $satGrey:rgba(0, 0, 0, 0.7);
 }
 .container{
   display:flex;
-}
-.toDo{
-
-}
-.done{
-
 }
 .moreSpace{
   margin-bottom:0.8em;
@@ -90,11 +85,28 @@ a:hover{
   box-shadow: 2px 2px 3px black;
 }
 button{
-  border-radius: 15px;
+  border-radius: 8px;
   padding:0.5em 2em;
+  font-weight: bold;
+  background-color:$beige
+}
+.task_title{
+  min-width:8em;
+  background-color: white;
+  border-radius: 6px;
+  padding: 0.3em 1em 0.3em 1em;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.6) inset ;
 }
 .fa{
   margin-left: 0.3em;
+}
+.fa-check{
+  margin-left: 1em;
+  margin-right: -1em;
+  color:yellow;
+  border: 1px solid yellow;
+  border-radius: 6px;
+  padding:5px;
 }
 .false{
   margin-left:1em;
@@ -113,4 +125,7 @@ button{
   border: solid 1px $satRed;
   border-radius: 6px;
   padding: 0.3em 0.3em
+}
+.hidden{
+  display:none !important;
 }
